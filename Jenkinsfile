@@ -13,4 +13,9 @@ NestedPipeline {
 NestedPipeline {}
 */
 
-NestedPipeline {}
+// custom step
+NestedPipeline {
+  stage('test') {
+    echo "test"
+  }
+}
